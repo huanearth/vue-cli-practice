@@ -6,3 +6,14 @@
     <a-button type="danger">Danger</a-button>
   </div>
 </template>
+<script>
+export default {
+  name: "About",
+  props: {
+    msg: String,
+  },
+  created() {
+    console.log(this.$router);
+  },
+};
+</script>

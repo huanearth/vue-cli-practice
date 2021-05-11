@@ -1,7 +1,7 @@
 // import Vue from 'vue'
 import { createApp } from "vue";
 import App from "./App.vue";
-import router from "./router";
+import router from "./router";  //引入挂载到Vue根实例上
 import store from "./store";
 import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";

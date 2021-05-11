@@ -1,7 +1,7 @@
 // import Vue from 'vue'
 // import Router from 'vue-router'
-import { createRouter, createWebHashHistory, RouterLink } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHashHistory} from 'vue-router'
+import Home from '../views/Home.vue'     //注册组件
 
 const routes = [
   {
@@ -26,8 +26,9 @@ const router = createRouter({
 
 export default router
 
-// export default new RouterLink({
-//   rouutes:[{
+
+// export default new Router({
+//   routes:[{
 //     path: '/',
 //     name: 'Home',
 //     component: Home
