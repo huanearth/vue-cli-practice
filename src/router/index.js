@@ -1,4 +1,6 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+// import Vue from 'vue'
+// import Router from 'vue-router'
+import { createRouter, createWebHashHistory, RouterLink } from 'vue-router'
 import Home from '../views/Home.vue'
 
 const routes = [
@@ -23,3 +25,16 @@ const router = createRouter({
 })
 
 export default router
+
+// export default new RouterLink({
+//   rouutes:[{
+//     path: '/',
+//     name: 'Home',
+//     component: Home
+//   },
+//   {
+//     path: '/about',
+//     name: 'About',
+//     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+//   }]
+// })
